@@ -2121,5 +2121,8 @@ html {
     .row-top{
         margin-bottom: 0px;
     }
+    .slider-slide-1 .btn-theme{
+        margin: 10px 50px 0 50px !important;
+    }
 
 }
