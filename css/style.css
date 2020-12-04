@@ -2161,6 +2161,7 @@ html {
     top: 50%;
     animation: loader-animation 0.8s infinite linear;
     margin: -50px 0px 0px -50px;
+    width: 80px;
 }
 @keyframes loader-animation{
     0%{

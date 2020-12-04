@@ -1,6 +1,6 @@
 (function ($) {
   'use strict';
-
+    $( ".loader" ).insertBefore( $( "body" ) );
      
     // Sticky Active Code
     $(window).on('scroll', function () {
