@@ -4,13 +4,16 @@
      
     // Sticky Active Code
     $(window).on('scroll', function () {
-      if ($(window).scrollTop() >= 40) {
+      if ($(window).scrollTop() >= 1) {
         $('header').addClass('fixed-header');
+          $( "header" ).insertBefore( $( "body" ) );
       }
       else {
         $('header').removeClass('fixed-header');
+          $( "body" ).append( $( "header" ) );
       }
-    }); 
+    });
+
 
     // // Footer Animation
     // $(window).on('scroll', function() {
