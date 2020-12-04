@@ -2181,6 +2181,9 @@ html {
     .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
         display: none;
     }
+    .pd-top-m-0{
+        padding-top: 0px !important;
+    }
 
     .slider-slide-1 h4 {
         font-size: 12px;
