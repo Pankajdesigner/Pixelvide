@@ -380,7 +380,7 @@ a:hover{
     border-radius: 4px;
 }
 .e-governance-section h3 {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 600;
     margin-bottom: 10px;
     color: #fff;
@@ -410,7 +410,7 @@ a{
     padding-left:70px; 
 }
 .what-we-inner h4{
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 700;
     margin-bottom: 10px;
     color: #353643;
@@ -710,7 +710,7 @@ footer .container-fluid{
     cursor: grab;
 }
 .about-first-row h2 {
-    font-size: 26px;
+    font-size: 32px;
     font-weight: 700;
     margin-bottom: 0;
     margin-top: 0;
@@ -725,7 +725,7 @@ footer .container-fluid{
     color: #616161;
 }
 .about-section{
-    padding: 60px 0;
+    padding: 100px 0;
 }
 .m-b-0{
     margin-bottom: 0px !important;
@@ -812,8 +812,8 @@ footer .container-fluid{
         max-width:1245px;
     }
     .core-tt h3{
-        font-size:26px;
-        font-weight:600;
+        font-size:32px;
+        font-weight:700;
     }
     .core-tt .border-line { 
         position: relative;
@@ -851,7 +851,7 @@ footer .container-fluid{
     margin-bottom: 40px;
 }
 .e-section h2 {
-    font-size: 26px;
+    font-size: 32px;
     font-weight: 700;
     color: #353643;
     margin-bottom: 10px;
@@ -901,7 +901,7 @@ footer .container-fluid{
     margin-bottom:0px;
 }
 .row-top .col-md-7{
-    padding-right:50px;
+    padding-right:0px;
 }
 .row-top .col-md-7 p{
     text-align:justify;
@@ -915,7 +915,7 @@ footer .container-fluid{
     background-size: cover;
 }
 .main-technology h2 {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 600;
     margin-bottom: 10px;
     color: #fff;
@@ -1274,12 +1274,12 @@ html {
 .pd-0{
     padding: 0px;
 }
-.pd-0 .row-top .col-md-7 {
-    padding-right: 100px;
+.pd-0 .row-top .col-md-5 {
+    padding-right: 50px;
 }
-.right-side .row-top .col-md-7{
+.right-side .row-top .col-md-5{
     padding-right: 15px;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 
@@ -1362,12 +1362,77 @@ html {
 .mobile-show{
     display: none !important;
 }
+.overlay-content {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    height: 100%;
+    text-align: center;
+    background: #00000096;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    padding: 14px;
+    transition: 0.2s;
+    opacity: 0;
+}
+.team-fig:hover .overlay-content{
+    top: 0;
+    transition: 0.2s;
+    opacity: 1;
+}
+.separator-line-horrizontal-full{
+    border: 1px solid #fce64b;
+    width: 40px;
+    margin: 10px auto;
+}
+.icon-social-small img{
+    width: 20px;
+}
+.team-section{
+    padding: 80px 0;
+    background: #f6f6f6;
+    padding-bottom: 50px;
+}
 
-
-
-
-
-
+.team-member-position{
+    background: #fff;
+    padding: 15px 5px;
+}
+.team-fig{
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.tema-image{
+    position: relative;
+    overflow: hidden;
+}
+.t-name{
+    font-size: 17px;
+    font-weight: 600;
+    color: #232323;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+.t-pos{
+    font-size: 14px;
+    color: #939393;
+    text-transform: uppercase;
+}
+.about-section .border-line {
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+.hero-abt-img{
+    position: relative;
+}
+.element-img{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
 
 
 
@@ -1528,7 +1593,7 @@ html {
         background: none;
     }
     .what-we-inner svg{
-        width: 30px;
+            width: 30px;
         height: 30px;
     }
     .what-we-inner h4{
@@ -1536,6 +1601,18 @@ html {
     }
 } 
 @media (max-width: 767px){
+    .about-section .border-line {
+        margin-bottom: 15px;
+        margin-top: 5px;
+        margin-left: 0 !important;
+    }
+    .f-img{
+        margin-bottom: 0 !important;
+        margin-top: 20px;
+    }
+    .about-section{
+        text-align: left !important;
+    }
     .mobile-hide{
         display: none !important;
     }
@@ -2175,6 +2252,19 @@ html {
 
 
 @media (max-width: 767px) {
+    .hero-abt-img{
+        padding-top: 60px;
+    }
+    .team-section{
+        padding: 40px 0;
+        padding-bottom: 10px;
+    }
+    .t-name{
+        font-size: 12px;
+    }
+    .t-pos{
+        font-size: 11px;
+    }
     .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
         display: none;
     }
@@ -2308,6 +2398,7 @@ html {
     .about-section p, .e-section p, .core-value p {
         line-height: 23px;
         color: #616161;
+        font-size: 16px;
     }
     .container {
         max-width: 1140px;
