@@ -1537,6 +1537,7 @@ html {
     position: relative;
     background-image: url(../images/about-hero.png);
     background-size: cover;
+    background-position: center;
     padding: 0;
     margin-bottom: 0;
     position: relative;
@@ -1844,8 +1845,27 @@ html {
     .row-top .col-md-5{
         text-align: center;
     }
+    .pd-0 .row-top .col-md-5{
+        padding-right: 15px;
+    }
+    .e-section .border-line{
+        margin: 0 auto;
+        position: relative;
+        left: -10px;
+        margin-bottom: 10px;
+    }
+    .right-side .row-top .col-md-5{
+        padding-left: 15px;
+    }
+    .pd-0 .row .img-fluid{
+        padding: 0;
+    }
+    .s-img{
+        padding: 0;
+    }
     .e-governance-section .f-40{
         text-align: center;
+
     }
     .loader img {
         position: absolute;
@@ -2397,6 +2417,7 @@ html {
 @media (max-width: 767px) {
     .hero-abt-img{
         padding-top: 60px;
+        height: 550px;
     }
     .team-section{
         padding: 40px 0;
@@ -2437,6 +2458,18 @@ html {
         font-size: 15px;
         padding: 10px 15px !important;
         margin-left: 0px !important;
+    }
+    .e-governance-section-bg .btn-theme {
+        font-size: 12px;
+        margin-top: 6px;
+        display: inline-block;
+    }
+    .hero-abt-img h2 {
+        font-weight: 300;
+        font-size: 26px;
+    }
+    .slider-slide-1 .bottom-img{
+        bottom: 0;
     }
     .sub-head {
         font-size: 14px;
