@@ -1732,6 +1732,18 @@ html {
     }
 } 
 @media (max-width: 767px){
+    .border-box:after{
+        position: absolute;
+        left: -3px;
+        top: -16px;
+        content: '';
+        opacity: 0.2;
+        width: 144px;
+        height: 150px;
+        background: url(../images/quote-left.svg);
+        background-repeat: no-repeat;
+        background-size: 79px;
+    }
     .about-section .border-line {
         margin-bottom: 15px;
         margin-top: 5px;
@@ -2407,10 +2419,34 @@ html {
     }
 
     .slider-slide-1 h4 {
-        font-size: 12px;
-        line-height: 17px;
+        font-size: 19px;
+        line-height: 24px;
     }
-
+    .slider-slide-1 h4 span{
+        display: block;
+        font-size: 15px;
+    }
+    .slider-slide-2 h5{
+        width: auto;
+        line-height: 16px;
+        text-align: center;
+        font-size: 12px !important;
+    }
+    .slider-slide-2 p a {
+        margin-top: 10px;
+        font-size: 15px;
+        padding: 10px 15px !important;
+        margin-left: 0px !important;
+    }
+    .sub-head {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        margin-top: 5px;
+    }
+    .border-box{
+        width: auto;
+    }
     .slider-slide-1 h4 br {
         display: none;
     }
@@ -2445,8 +2481,9 @@ html {
         text-align: center !important;
     }
     .slid-p-1 .btn img{
-        width: 16px;
-        margin-left: 4px;
+        width: 14px;
+        margin-left: 0;
+        margin-right: 10px;
     }
     .slider-slide-1 .btn-theme{
         font-size: 12px;
@@ -2495,8 +2532,16 @@ html {
     .row-top{
         margin-bottom: 0px;
     }
+    .slid-p-1 span{
+        padding: 10px;
+        text-align: left;
+    }
     .slider-slide-1 .btn-theme{
-        margin: 10px auto 0 auto !important;
+        margin: 0 !important;
+        padding: 0px;
+        border-radius: 3px;
+        margin-right: 10px !important;
+        opacity: 1;
     }
 
 }
