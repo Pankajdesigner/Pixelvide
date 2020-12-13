@@ -1795,14 +1795,16 @@ html {
         padding: 40px 0;
     }
     .main-technology h2 {
-        font-size: 18px;
+        font-size: 20px;
         line-height: inherit;
-        font-weight: 600;
         margin-bottom: 5px;
     }
+    .tech-side-box h4 {
+        font-size: 19px;
+    }
     .main-technology p{
-        font-size: 13px;
-        line-height: 21px;
+        font-size: 13px !important;
+        line-height: 19px;
     }
     .main-tech-top {
         padding: 0px 10px;
@@ -1881,12 +1883,12 @@ html {
     .page-header h1 {
         font-size: 18px;
         line-height: inherit;
-        font-weight: 600;
     }
     .page-header p {
         color: #FAFAFA;
         font-size: 13px;
         margin-bottom:0px;
+        margin-top: 0px;
     }
     .page-header .border-line {
         margin: 6px 0 5px 0;
