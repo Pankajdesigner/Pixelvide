@@ -1239,7 +1239,7 @@ html {
     padding-top: 91px;
 }
 .slider-slide-2 .content-slider{
-    background: url(../images/Layer-2.png);
+    background: url(../images/Layer-2.jpg);
     background-size: cover;
     height: 100%;
     display: flex;
@@ -1288,7 +1288,7 @@ html {
     padding: 10px 15px;
 }
 .s3-s .content-slider{
-    background: url(../images/Layer-3.png);
+    background: url(../images/Layer-3.jpg);
     background-size: cover;
 }
 .slider-slide-3 h4{
@@ -1321,7 +1321,7 @@ html {
     margin-top: 4px;
 }
 .s4-s .content-slider {
-    background: url(../images/Layer-4.png);
+    background: url(../images/Layer-4.jpg);
     background-size: cover;
 }
 .slider-slide-4 .btn-theme{
@@ -1332,7 +1332,7 @@ html {
 }
 
 .s5-s .content-slider {
-    background: url(../images/Layer-5.png);
+    background: url(../images/Layer-5.jpg);
     background-size: cover;
 }
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
