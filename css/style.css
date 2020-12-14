@@ -444,7 +444,6 @@ a{
     /*padding-left:70px; */
 }
 .right-what-we-img {
-    display: flex;
     background: fff;
     background-size: cover;
     background-position: right bottom;
@@ -455,7 +454,6 @@ a{
 }
 .right-what-we-img img{
     width: 100%;
-    max-width: 100%;
 }
 
 
@@ -1603,7 +1601,17 @@ html {
 .about-first-row h2, .e-section h2, .e-section h2, .core-tt h3, .core-tt h3, .core-value h4, .abt-h4{
     color:#1B364D;
 }
-
+.box-shadow-white{
+    background: #fff;
+    box-shadow: 2px 2px 21px rgb(0 0 0 / 8%);
+    border-radius: 6px;
+    transition: 0.1s;
+    padding: 40px 15px;
+}
+.box-shadow-white:hover{
+    transform: scale(1.04);
+    transition: 0.5s;
+}
 
 
 @media (max-width: 1500px){
