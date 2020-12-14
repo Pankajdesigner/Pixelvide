@@ -428,6 +428,7 @@ a{
 .what-we-do{
     background-position:center center;
     background-size: cover;
+    padding: 40px 0;
     position: relative;
 }
 .left-what-we{
@@ -444,10 +445,11 @@ a{
 }
 .right-what-we-img {
     display: flex;
-    background: url("../images/bg.jpg") no-repeat;
+    background: fff;
     background-size: cover;
     background-position: right bottom;
     padding: 50px;
+    padding-left: 0px;
     overflow: hidden;
     justify-content: space-between;
 }
@@ -1250,7 +1252,7 @@ html {
     padding: 0;
 }
 .blac-bg-sec{
-    background: rgb(0 0 0 / 63%);
+    background: rgb(0 0 0 / 56%);
     margin-bottom: 0px;
     padding: 40px 0;
     width: 100%;
@@ -2020,6 +2022,7 @@ html {
     }
     .right-what-we-img{
         padding: 30px 15px;
+        padding-top: 0;
     }
     .header{
         background: rgba(255, 255, 255, 0.9490196078431372);
@@ -2338,9 +2341,6 @@ html {
     }
     .e-governance-section .f-60{
         margin-bottom: 0px;
-    }
-    .what-we-inner {
-        padding-left: 0px;
     }
     .footer-strip span:last-child {
         float: none;
