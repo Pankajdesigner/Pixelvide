@@ -397,7 +397,7 @@ a:hover{
     content: '';
 }
 .e-governance-section-bg .btn-theme{
-    font-size: 19px;
+    font-size: 18px;
 }
 .c-video{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.45098039215686275);
@@ -431,7 +431,7 @@ a{
     position: relative;
 }
 .left-what-we{
-    padding: 80px 50px;
+    padding: 40px 50px;
 }
 .img-wp-what{
     display: flex;
@@ -1688,7 +1688,7 @@ html {
         padding: 60px 0px 60px 0px;
     }
     .AI-section h2, .e-governance-section h3, .what-we-inner h4 {
-        font-size: 20px;
+        font-size: 30px;
     }
     .ai-first-p, .e-governance-section p, .what-we-inner p, .about-footer p{
         font-size: 13px;
@@ -1749,7 +1749,7 @@ html {
         flex: 40%;    
     }
     .what-we-do{
-        padding: 30px 0;
+        padding: 0px 0;
         background: none;
         padding-bottom: 0;
     }
@@ -2016,7 +2016,7 @@ html {
         flex: 100%;
     }
     .what-we-inner {
-        padding: 0 10px 20px 10px;
+        padding: 25px 10px 20px 10px;
     }
     .right-what-we-img{
         padding: 30px 15px;
@@ -2337,7 +2337,7 @@ html {
         flex: 100%;
     }
     .e-governance-section .f-60{
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
     .what-we-inner {
         padding-left: 0px;
