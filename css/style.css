@@ -448,7 +448,7 @@ a{
     background-size: cover;
     background-position: right bottom;
     padding: 50px;
-    padding-left: 0px;
+    padding-top: 0;
     overflow: hidden;
     justify-content: space-between;
 }
