@@ -426,25 +426,53 @@ a{
     fill: #676767  !important;
 }
 .what-we-do{
-    padding: 100px 0;
-    background: #FAFAFA url(../images/what-we-do-bg.jpg) no-repeat;
     background-position:center center;
     background-size: cover;
     position: relative;
 }
+.left-what-we{
+    padding: 80px 50px;
+}
+.img-wp-what{
+    display: flex;
+}
+.img-wp-what img{
+    width: 100%;
+}
 .what-we-inner{
     /*padding-left:70px; */
 }
-#whatwedo::before{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: #fff;
-    opacity: 0.9;
-    content: '';
+.right-what-we-img {
+    display: flex;
+    background: url("../images/bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+    padding: 50px;
+    overflow: hidden;
+    justify-content: space-between;
 }
+.right-what-we-img img{
+    width: 100%;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+/*#whatwedo::before{*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    background: #fff;*/
+/*    opacity: 0.9;*/
+/*    content: '';*/
+/*}*/
 .what-we-inner h4{
     font-size: 42px;
     font-weight: 300;
@@ -1723,6 +1751,7 @@ html {
     .what-we-do{
         padding: 30px 0;
         background: none;
+        padding-bottom: 0;
     }
     .what-we-inner svg{
             width: 30px;
@@ -1987,7 +2016,10 @@ html {
         flex: 100%;
     }
     .what-we-inner {
-        padding-left: 0px;
+        padding: 0 10px 20px 10px;
+    }
+    .right-what-we-img{
+        padding: 30px 15px;
     }
     .header{
         background: rgba(255, 255, 255, 0.9490196078431372);
