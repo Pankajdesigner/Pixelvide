@@ -1579,6 +1579,8 @@ html {
 .hero-abt-img h2{
     font-weight: 300;
     font-size: 42px;
+    text-transform: uppercase;
+    word-spacing: 5px;
 }
 .hero-abt-img::before {
     height: 100%;
