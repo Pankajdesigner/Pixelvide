@@ -1648,7 +1648,7 @@ html {
         font-size: 14px;
     }
     .AI-section h2, .e-governance-section h3, .what-we-inner h4{
-        font-size: 24px;
+        /*font-size: 24px;*/
     }
     .quick-links li{
         width: 100%;
@@ -1667,7 +1667,7 @@ html {
         padding-top: 71px;
     }
     .about-first-row h2 {
-        font-size: 23px;
+        /*font-size: 23px;*/
     }
     .header .navbar-nav .nav-link, .header.fixed-header .navbar-nav .nav-link {
         line-height: 70px;
@@ -2475,7 +2475,7 @@ html {
 @media (max-width: 767px) {
     .hero-abt-img{
         padding-top: 60px;
-        height: 550px;
+        height: 335px;
     }
     .team-section{
         padding: 40px 0;
@@ -2524,7 +2524,7 @@ html {
     }
     .hero-abt-img h2 {
         font-weight: 300;
-        font-size: 26px;
+        font-size: 20px;
     }
     .slider-slide-1 .bottom-img{
         bottom: 0;
