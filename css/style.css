@@ -1614,7 +1614,12 @@ html {
     transform: scale(1.04);
     transition: 0.5s;
 }
-
+.web-callout{
+    display: block;
+}
+.mobile-callout{
+    display: none;
+}
 
 @media (max-width: 1500px){
     .out-img {
@@ -1774,6 +1779,12 @@ html {
     }
 } 
 @media (max-width: 767px){
+    .web-callout{
+        display: none;
+    }
+    .mobile-callout{
+        display: block;
+    }
     .border-box:after{
         position: absolute;
         left: -3px;
