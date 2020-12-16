@@ -447,7 +447,8 @@ a{
     background: fff;
     background-size: cover;
     background-position: right bottom;
-    padding: 50px;
+    padding: 100px;
+    padding-bottom: 50px;
     padding-top: 0;
     overflow: hidden;
     justify-content: space-between;
@@ -1192,9 +1193,9 @@ footer .container-fluid{
     background: url(../images/slider-bg-2.jpg);
     background-size: cover;
     color: #fff;
-    height: 715px;
+    height: 635px;
     position: relative;
-    padding-top: 150px;
+    padding-top: 130px;
 }
 .slider-slide-1 h4{
     font-size: 28px;
@@ -1204,7 +1205,7 @@ footer .container-fluid{
 }
 .slider-slide-1 .bottom-img{
     position: absolute;
-    bottom: -20px;
+    bottom: -30px;
     left: 0;
 }
 .slider-slide-1 h5{
@@ -1390,17 +1391,17 @@ html {
 ===========================*/
 
 .slider-slide-1 h4{
-    font-size: 38px;
-    line-height: 47px;
+    font-size: 34px;
+    line-height: 42px;
     font-weight: 300;
 }
 .slider-slide-1 h4 span{
-    font-size: 19px;
+    font-size: 18px;
     font-style: italic;
     font-weight: 200;
 }
 .border-box{
-    width: 625px;
+    width: 582px;
     margin-left: auto;
     position: relative;
 }
@@ -1414,7 +1415,7 @@ html {
     height: 150px;
     background: url(../images/quote-left.svg);
     background-repeat: no-repeat;
-    background-size: 129px;
+    background-size: 120px;
 }
 .slider-slide-2 h4{
     font-size: 32px;
@@ -1422,7 +1423,7 @@ html {
     margin-bottom: 11px;
 }
 .content-slider p{
-    font-size: 16px;
+    font-size: 15px;
 }
 .slid-p-1{
     background: #fff;
@@ -1578,8 +1579,8 @@ html {
 }
 .hero-abt-img h2{
     font-weight: 300;
-    font-size: 42px;
-    text-transform: uppercase;
+    font-size: 39px;
+    /*text-transform: uppercase;*/
     word-spacing: 5px;
 }
 .hero-abt-img::before {
@@ -2524,7 +2525,7 @@ html {
     }
     .hero-abt-img h2 {
         font-weight: 300;
-        font-size: 20px;
+        font-size: 20   px;
     }
     .slider-slide-1 .bottom-img{
         bottom: 0;
@@ -2589,8 +2590,9 @@ html {
         margin-top: 50px;
     }
     .slider-slide-4 .blac-bg-sec {
-        margin-bottom: 120px;
+        margin-bottom: 120px !important;
     }
+
     .s-container {
         max-width: 1140px;
         margin: 0 auto;
