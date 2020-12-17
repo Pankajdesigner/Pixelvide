@@ -1593,6 +1593,9 @@ html {
     font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
 }
+.container.max-1300{
+    max-width: 1300px;
+}
 .hero-abt-img::before {
     height: 100%;
     width: 100%;
