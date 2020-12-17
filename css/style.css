@@ -1577,11 +1577,21 @@ html {
     text-align: center;
     color: #ffff;
 }
+.hero-abt-img .container{
+    position: absolute;
+    bottom: 0;
+    background: #0000008c;
+    padding: 36px 30px;
+    border-radius: 10px 10px 0 0;
+}
 .hero-abt-img h2{
-    font-weight: 300;
-    font-size: 39px;
-    /*text-transform: uppercase;*/
-    word-spacing: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    word-spacing: 2px;
+    line-height: 1.4;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
 }
 .hero-abt-img::before {
     height: 100%;
