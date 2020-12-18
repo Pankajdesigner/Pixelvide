@@ -70,6 +70,9 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     top: 4px;
 }
+.navbar-nav{
+    font-family: 'Nunito', sans-serif;
+}
 .navbar-brand img{
     width: 130px;
 }
@@ -101,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 30px;
 }
 .header .navbar-nav .bt-link{
-    background: #f5f6f9;
+    background: rgb(0 0 0 / 50%);
     height: 30px;
     line-height: 30px !important;
     margin: 29px 0 0 15px;
@@ -113,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #6549ec !important;
 }
 .home-2 .header .navbar-nav .bt-link{
-    color: #6549ec;
+    color: #ffffff;
 }   
 .header .navbar-nav .bt-link:hover{
     color: #6549ec !important;
@@ -1426,9 +1429,9 @@ html {
     font-size: 15px;
 }
 .slid-p-1{
-    background: #fff;
+    background: rgb(0 0 0 / 50%);
     padding: 0;
-    color: #494253;
+    color: #ffffff;
     padding-left: 10px;
     border-radius: 5px;
     font-size: 16.6px;
@@ -1466,14 +1469,14 @@ html {
     opacity: 0;
 }
 .swiper-button-prev {
-    background: rgb(0 0 0 / 70%) url(../images/left.svg);
+    background: rgb(0 0 0 / 50%) url(../images/left.svg);
     background-repeat: no-repeat;
     background-position: 13px 12px;
     background-size: 10px;
     margin-top: 20px;
 }
 .swiper-button-next {
-    background: rgb(0 0 0 / 70%) url(../images/right.svg);
+    background: rgb(0 0 0 / 50%) url(../images/right.svg);
     background-repeat: no-repeat;
     background-position: 16px 12px;
     background-size: 10px;
@@ -1577,21 +1580,19 @@ html {
     text-align: center;
     color: #ffff;
 }
-.hero-abt-img .container{
-    position: absolute;
-    bottom: 0;
-    background: #0000008c;
-    padding: 36px 30px;
-    border-radius: 10px 10px 0 0;
-}
+/*.hero-abt-img .container{*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    background: #0000008c;*/
+/*    padding: 36px 30px;*/
+/*    border-radius: 10px 10px 0 0;*/
+/*}*/
 .hero-abt-img h2{
-    font-weight: 400;
-    font-size: 20px;
-    word-spacing: 2px;
-    line-height: 1.4;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 1.2;
     text-align: center;
-    font-family: 'Nunito', sans-serif;
-    text-transform: uppercase;
+    text-shadow: 2px 2px 3px #000;
 }
 .container.max-1300{
     max-width: 1300px;
