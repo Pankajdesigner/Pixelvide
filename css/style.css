@@ -1580,19 +1580,31 @@ html {
     text-align: center;
     color: #ffff;
 }
-/*.hero-abt-img .container{*/
-/*    position: absolute;*/
-/*    bottom: 0;*/
-/*    background: #0000008c;*/
-/*    padding: 36px 30px;*/
-/*    border-radius: 10px 10px 0 0;*/
-/*}*/
+.hero-abt-img .container{
+    position: absolute;
+    bottom: 0;
+}
 .hero-abt-img h2{
     font-weight: 300;
-    font-size: 40px;
+    font-size: 36px;
     line-height: 1.2;
     text-align: center;
     text-shadow: 2px 2px 3px #000;
+    background: #00000085;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 29px 40px;
+    padding-top: 30px;
+    border-radius: 5px 5px 0 0;
+}
+.hero-abt-img svg{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.9;
+    width: 68px;
+    padding: 9px;
+    top: 44px;
 }
 .container.max-1300{
     max-width: 1300px;
