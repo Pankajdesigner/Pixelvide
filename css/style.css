@@ -1603,7 +1603,7 @@ html {
     left: 0;
     top: 0;
     background: rgb(0 0 0 / 78%);
-    opacity: 0.1;
+    opacity: 0.4;
     content: '';
 }
 .hero-abt-img .border-line{
