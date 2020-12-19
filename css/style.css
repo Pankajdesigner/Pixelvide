@@ -1838,6 +1838,9 @@ html {
         margin-left: -75px;
         background-position: center;
     }
+    .hero-abt-img::before{
+        opacity: 0.1;
+    }
     .about-section .border-line {
         margin-bottom: 15px;
         margin-top: 5px;
