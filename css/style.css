@@ -1826,8 +1826,8 @@ html {
     }
     .border-box:after{
         position: absolute;
-        left: -3px;
-        top: -16px;
+        left: 50%;
+        top: -73px;
         content: '';
         opacity: 0.2;
         width: 144px;
@@ -1835,6 +1835,8 @@ html {
         background: url(../images/quote-left.svg);
         background-repeat: no-repeat;
         background-size: 79px;
+        margin-left: -75px;
+        background-position: center;
     }
     .about-section .border-line {
         margin-bottom: 15px;
