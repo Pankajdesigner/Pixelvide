@@ -2570,8 +2570,9 @@ html {
         display: none;
     }
     .hero-abt-img svg{
-        width: 46px;
-        top: 42px;
+        width: 54px;
+        top: -3px;
+        margin-left: -27px;
     }
     .slider-slide-1 .bottom-img{
         bottom: 0;
