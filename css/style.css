@@ -1818,6 +1818,21 @@ html {
     }
 } 
 @media (max-width: 767px){
+    .icon-social-small .text-small{
+        font-size: 12px;
+        line-height: 13px;
+    }
+    .icon-social-small img {
+        width: 14px;
+    }
+    .separator-line-horrizontal-full {
+        border: 1px solid #fce64b;
+        width: 30px;
+        margin: 5px auto;
+    }
+    .overlay-content{
+        padding: 15px 5px;
+    }
     .web-callout{
         display: none;
     }
