@@ -579,7 +579,7 @@ footer .quick-links h4{
     text-transform: uppercase;
 }
 .quick-links li {
-    width: 49%;
+    /*width: 49%;*/
     display: inline-block;
     margin-bottom: 17px;
 }
@@ -1769,7 +1769,7 @@ html {
         font-size: 13px;
     }
     .quick-links li {
-        width: 100%;
+        width: 50%;
         margin-bottom: 12px; 
     }
     .contact-details ul li svg{
@@ -1824,6 +1824,10 @@ html {
     }
     .icon-social-small img {
         width: 14px;
+    }
+    .quick-links ul{
+        display: flex;
+        flex-wrap: wrap;
     }
     .separator-line-horrizontal-full {
         border: 1px solid #fce64b;
