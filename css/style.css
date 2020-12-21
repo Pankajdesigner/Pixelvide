@@ -1973,7 +1973,7 @@ html {
         left: 50%;
         top: 50%;
         animation: loader-animation 0.5s infinite linear;
-        margin: -25px 0px 0px -25px !important;
+        margin: -40px 0px 0px -40px !important;
         width: 50px;
     }
     .page-header h1 {
