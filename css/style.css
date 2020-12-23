@@ -2008,8 +2008,26 @@ html {
         height: 370px;
         overflow: hidden;
     }
+    .e-governance-section-bg.ptyhon{
+        margin-top: 30px;
+    }
+    .core-tech {
+        padding: 40px 0;
+        margin-bottom: 15px;
+    }
     .front-back-sec.e-section h2, .ptyhon.e-governance-section h3, .e-section.android-section h2, .core-tech h4, .section-tech h4{
         font-size: 18px;
+    }
+    .section-tech{
+        text-align: center;
+    }
+    .section-tech .border-line{
+        position: relative;
+        margin: 0 auto;
+        left: -10px;
+    }
+    .section-tech.first-section p {
+        padding-right: 0px;
     }
     .front-back-sec.e-section h2 span{
         font-size: 13px;
