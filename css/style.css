@@ -579,7 +579,7 @@ footer .quick-links h4{
     text-transform: uppercase;
 }
 .quick-links li {
-    /*width: 49%;*/
+    width: 49%;
     display: inline-block;
     margin-bottom: 17px;
 }
