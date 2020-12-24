@@ -61,24 +61,14 @@
   });
 
   $('.loader').fadeOut();
+
+    if ($(window).scrollTop() >= 40) {
+        $('header').addClass('fixed-header');
+    }
+    else {
+        $('header').removeClass('fixed-header');
+    }
  
 
 })(jQuery);
-
-$(window).load(function () {
-  //ADD .TIGHT
-  // if ($(window).scrollTop() + $(window).height() > $('.content-wrapper').outerHeight()) {
-  //   $('body').addClass('tight'); 
-  // } else {
-  //   $('body').removeClass('tight'); 
-  // }
-
-  if ($(window).scrollTop() >= 40) {
-    $('header').addClass('fixed-header');
-  }
-  else {
-    $('header').removeClass('fixed-header');
-  }
-
-});
 

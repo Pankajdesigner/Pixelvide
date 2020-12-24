@@ -2105,7 +2105,6 @@ html {
     .row.callout-row{
         max-width: 540px;
         margin: 0 auto;
-        margin-bottom: 30px;
     }
     .callout-row .col-md-3{
         width: 50%;
@@ -2796,18 +2795,29 @@ html {
 }
 @media (max-width: 550px) {
     .row.callout-row {
-        max-width: 250px;
+        max-width: 100%;
     }
     .callout-row .col-md-3 {
-        width: 100%;
+        width: 50%;
         margin-bottom: 15px;
     }
     .con--callout p {
         margin: 0;
-        font-size: 12px;
+        font-size: 7px;
     }
-    .con--callout{
-        width: 100px;
+    .pop--up {
+        position: absolute;
+        right: -22px;
+        width: 39px;
+        top: 28%;
+        opacity: 0.9;
+        height: 12px;
+    }
+    .con--callout {
+        width: 50px;
+        padding: 5px 4px;
+        left: 24px;
+        top: 10px;
     }
 }
 
