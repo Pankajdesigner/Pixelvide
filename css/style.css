@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #ffffff;
 }   
 .header .navbar-nav .bt-link:hover{
-    color: #6549ec !important;
+    color: #fff !important;
 }
 .header .navbar-nav .bt-link::after{
     display: none;
@@ -1108,7 +1108,7 @@ footer .container-fluid{
     width: calc(50% - 20px);
     margin: 8px;
     color: #676767;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     border: 1px solid #d8d8d8;
     outline: none !important;
