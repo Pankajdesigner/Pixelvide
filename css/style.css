@@ -1737,7 +1737,11 @@ html {
     margin-top: 60px;
 }
 .e-governance-section-bg.ptyhon p{
-    padding: 0 25px;
+    padding: 0 20px;
+    color: #818181;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 1.4;
 }
 .e-governance-section-bg.ptyhon .container{
     max-width: 1620px;
@@ -1745,15 +1749,23 @@ html {
 .e-governance-section-bg.ptyhon::before{
     display: none;
 }
+.e-governance-section-bg.ptyhon h3{
+    color: #1B364D;
+}
+.py-col{
+    border-radius: 10px;
+    padding: 40px 30px;
+    background: #fff;
+}
 .icon-py{
-    background: rgb(0 0 0 / 35%);
+    background: rgb(202 202 202 / 25%);
     display: inline-block;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
 }
 .icon-py img{
-    width: 60px;
+    width: 50px;
 }
 .front-back-sec.e-section h2, .ptyhon.e-governance-section h3, .e-section.android-section h2, .core-tech h4, .section-tech h4{
     font-size: 36px;
@@ -2130,11 +2142,15 @@ html {
     }
     .e-governance-section-bg.ptyhon{
         margin-top: 30px;
-        padding-top: 0px;
     }
-
+    .py-col {
+        padding: 30px 20;
+        margin-bottom: 20px;
+    }
+    .py-col.no-m-b{
+        margin-bottom: 0;
+    }
     .icon-py{
-        margin-top: 40px;
         margin-bottom: 0;
     }
     .icon-py img {
@@ -2991,6 +3007,9 @@ html {
 
 
 @media (max-width: 767px) {
+    .e-governance-section-bg.ptyhon p{
+        font-size: 12px;
+    }
     .hero-abt-img{
         padding-top: 60px;
         height: 335px;
