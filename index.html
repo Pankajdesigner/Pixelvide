@@ -134,8 +134,9 @@
 
     <!-- Swiper -->
     <div class="swiper-container">
+      <div class="slider-particles" id="particles-js" style="position: absolute; width: 100%; height: 100%; left: 0PX; top: 0PX;"></div>
       <div class="swiper-wrapper">
-        <div class="swiper-slide">
+        <div class="swiper-slide f-s-h">
           <div class="slide-inner slider-slide-1">
             <div class="content-slider">
               <div class="border-box">
@@ -223,7 +224,7 @@
 
       </div>
       <!-- Add Pagination -->
-<!--      <div class="swiper-pagination"></div>-->
+      <div class="swiper-pagination"></div>
       <!-- Add Arrows -->
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
@@ -296,6 +297,10 @@
               <h4>What We Do?</h4>
               <div class="border-line center"></div>
               <p>We are a group of tech enthusiasts who aspire and strive to work towards social change with the help of technology. We work closely with various state governments, take on large issues that exist within them, gain subject-matter expertise and find solutions to these problems using technology at the core. Thus we help governments function more efficiently, effectively and more transparently. This process in turn helps governments deliver better public administration thus impacting our society at large.</p>
+
+              <div class="b-b-1"></div>
+              <p class="highlight-p-home">Hear from some of our Folks!</p>
+
             </div>
           </div>
 <!--          <div class="col-md-12 col-sm-12 right-what-we-img">-->
@@ -305,44 +310,44 @@
 <!--           </div>-->
 <!--          </div>-->
         </div>
-        <div class="row callout-row">
-          <div class="col-md-3">
-            <div class="call-wrapper">
-              <div class="con--callout">
-                <p>We combine reality with technology</p>
-                <img class="pop--up" src="images/callout/callout.svg" alt="">
-              </div>
-              <img class="back-callout" src="images/callout/1.png" alt="">
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="call-wrapper">
-              <div class="con--callout">
-                <p>We deal with problems with technology</p>
-                <img class="pop--up" src="images/callout/callout.svg" alt="">
-              </div>
-              <img class="back-callout" src="images/callout/2.png" alt="">
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="call-wrapper">
-              <div class="con--callout">
-                <p>We create solutions that can only be imagined</p>
-                <img class="pop--up" src="images/callout/callout.svg" alt="">
-              </div>
-              <img class="back-callout" src="images/callout/3.png" alt="">
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="call-wrapper">
-              <div class="con--callout">
-                <p>We believe in ideas that change lives</p>
-                <img class="pop--up" src="images/callout/callout.svg" alt="">
-              </div>
-              <img class="back-callout" src="images/callout/4.png" alt="">
-            </div>
-          </div>
-        </div>
+<!--        <div class="row callout-row">-->
+<!--          <div class="col-md-3">-->
+<!--            <div class="call-wrapper">-->
+<!--              <div class="con&#45;&#45;callout">-->
+<!--                <p>We combine reality with technology</p>-->
+<!--                <img class="pop&#45;&#45;up" src="images/callout/callout.svg" alt="">-->
+<!--              </div>-->
+<!--              <img class="back-callout" src="images/callout/1.png" alt="">-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="col-md-3">-->
+<!--            <div class="call-wrapper">-->
+<!--              <div class="con&#45;&#45;callout">-->
+<!--                <p>We deal with problems with technology</p>-->
+<!--                <img class="pop&#45;&#45;up" src="images/callout/callout.svg" alt="">-->
+<!--              </div>-->
+<!--              <img class="back-callout" src="images/callout/2.png" alt="">-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="col-md-3">-->
+<!--            <div class="call-wrapper">-->
+<!--              <div class="con&#45;&#45;callout">-->
+<!--                <p>We create solutions that can only be imagined</p>-->
+<!--                <img class="pop&#45;&#45;up" src="images/callout/callout.svg" alt="">-->
+<!--              </div>-->
+<!--              <img class="back-callout" src="images/callout/3.png" alt="">-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="col-md-3">-->
+<!--            <div class="call-wrapper">-->
+<!--              <div class="con&#45;&#45;callout">-->
+<!--                <p>We believe in ideas that change lives</p>-->
+<!--                <img class="pop&#45;&#45;up" src="images/callout/callout.svg" alt="">-->
+<!--              </div>-->
+<!--              <img class="back-callout" src="images/callout/4.png" alt="">-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
         <div class="row callout-row">
           <div class="col-md-3">
             <div class="call-wrapper">
@@ -589,6 +594,7 @@
   <script src="js/smoth-scroll.js"></script>
   <script src="js/wow.js"></script>
   <!-- Swiper JS -->
+  <script src="js/particles.min.js"></script>
   <script src="js/swiper.min.js"></script>
   <script src="js/custom.js"></script>
 
@@ -597,10 +603,10 @@
       slidesPerView: 1,
       spaceBetween: 0,
       loop: true,
-      // autoplay: {
-      //   delay: 5000,
-      //   disableOnInteraction: false,
-      // },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -621,7 +627,120 @@
 
 
   </script>
- 
+
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 100,
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": {
+          "value": "#ebebeb"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 2,
+            "color": "#BABCCE"
+          },
+          "polygon": {
+            "nb_sides": 5
+          },
+          "image": {
+            "src": "img/github.svg",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "opacity": {
+          "value": 0.14430708547789706,
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 1,
+            "opacity_min": 0.1,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 2,
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 40,
+            "size_min": 0.1,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#ffffff",
+          "opacity": 0.20844356791251797,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 3,
+          "direction": "top-right",
+          "random": true,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": true,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 1200
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "grab"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "push"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 146.17389821424212,
+            "line_linked": {
+              "opacity": 0.7403568520026647
+            }
+          },
+          "bubble": {
+            "distance": 400,
+            "size": 40,
+            "duration": 2,
+            "opacity": 8,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 200,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+
 </body>
 
 </html>

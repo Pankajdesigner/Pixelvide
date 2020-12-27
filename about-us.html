@@ -123,6 +123,24 @@
 
 
       <div class="hero-abt-img">
+
+          <!-- Swiper -->
+          <div class="swiper-container">
+              <div class="swiper-wrapper">
+                  <div class="swiper-slide abt-s-1"></div>
+                  <div class="swiper-slide abt-s-2"></div>
+                  <div class="swiper-slide abt-s-3"></div>
+                  <div class="swiper-slide abt-s-4"></div>
+                  <div class="swiper-slide abt-s-5"></div>
+              </div>
+              <!-- Add Pagination -->
+<!--              <div class="swiper-pagination"></div>-->
+<!--              &lt;!&ndash; Add Arrows &ndash;&gt;-->
+<!--              <div class="swiper-button-next"></div>-->
+<!--              <div class="swiper-button-prev"></div>-->
+          </div>
+
+
           <div class="container">
               <div class="row">
                   <div class="col-md-12">
@@ -682,6 +700,31 @@
                   <div class="col-6 col-sm-4 col-lg-3 col-lg-3">
                       <figure class="team-fig">
                           <div class="tema-image sm-width-100">
+                              <img class="img-fluid" src="images/team/17.jpg" alt="" data-no-retina="">
+                              <div class="overlay-content">
+                                  <div class="icon-social-small">
+                                      <span class="text-white-2 text-small d-inline-block m-0">Gem of Pixelvide, Bhargav is a real team player!</span>
+                                      <div class="separator-line-horrizontal-full bg-deep-pink margin-eleven-tb"></div>
+                                      <a href="https://www.linkedin.com/in/ngoyal16/" class="text-white-2" target="_blank">
+                                          <img src="images/linkedin(1).svg" alt="">
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                          <figcaption>
+                              <div class="team-member-position text-center">
+                                  <div class="t-name">Bhargav</div>
+                                  <div class="t-pos">Operations Manager</div>
+                              </div>
+                          </figcaption>
+                      </figure>
+                  </div>
+                  <!-- end team item -->
+
+                  <!-- start team item -->
+                  <div class="col-6 col-sm-4 col-lg-3 col-lg-3">
+                      <figure class="team-fig">
+                          <div class="tema-image sm-width-100">
                               <img class="img-fluid" src="images/team/16.jpg" alt="" data-no-retina="">
                               <div class="overlay-content">
                                   <div class="icon-social-small">
@@ -871,159 +914,38 @@
    <script src="js/swiper.min.js"></script>  
   <script src="js/custom.js"></script>
 
-  <script src="js/particles.min.js"></script> 
 
-
-  <script>  
-    particlesJS("particles-js", {
-    "particles": {
-      "number": {
-        "value": 100,
-        "density": {
-          "enable": true,
-          "value_area": 800
-        }
-      },
-      "color": {
-        "value": "#ebebeb"
-      },
-      "shape": {
-        "type": "circle",
-        "stroke": {
-          "width": 2,
-          "color": "#fff"
-        },
-        "polygon": {
-          "nb_sides": 5
-        },
-        "image": {
-          "src": "img/github.svg",
-          "width": 100,
-          "height": 100
-        }
-      },
-      "opacity": {
-        "value": 0.14430708547789706,
-        "random": true,
-        "anim": {
-          "enable": false,
-          "speed": 1,
-          "opacity_min": 0.1,
-          "sync": false
-        }
-      },
-      "size": {
-        "value": 2,
-        "random": true,
-        "anim": {
-          "enable": false,
-          "speed": 40,
-          "size_min": 0.1,
-          "sync": false
-        }
-      },
-      "line_linked": {
-        "enable": true,
-        "distance": 150,
-        "color": "#ffffff",
-        "opacity": 0.20844356791251797,
-        "width": 1
-      },
-      "move": {
-        "enable": true,
-        "speed": 3,
-        "direction": "top-right",
-        "random": true,
-        "straight": false,
-        "out_mode": "out",
-        "bounce": true,
-        "attract": {
-          "enable": false,
-          "rotateX": 600,
-          "rotateY": 1200
-        }
-      }
-    },
-    "interactivity": {
-      "detect_on": "canvas",
-      "events": {
-        "onhover": {
-          "enable": true,
-          "mode": "grab"
-        },
-        "onclick": {
-          "enable": true,
-          "mode": "push"
-        },
-        "resize": true
-      },
-      "modes": {
-        "grab": {
-          "distance": 146.17389821424212,
-          "line_linked": {
-            "opacity": 0.7403568520026647
-          }
-        },
-        "bubble": {
-          "distance": 400,
-          "size": 40,
-          "duration": 2,
-          "opacity": 8,
-          "speed": 3
-        },
-        "repulse": {
-          "distance": 200,
-          "duration": 0.4
-        },
-        "push": {
-          "particles_nb": 4
-        },
-        "remove": {
-          "particles_nb": 2
-        }
-      }
-    },
-    "retina_detect": true
-  });
-  </script>
-  
   <script>
       var swiper = new Swiper('.swiper-container', {
-        nSlideChangeEnd: $.proxy(this.slideChanged, this),
-        onSlideTouch: $.proxy(this.slideChanged, this),
-        onSwiperCreated: $.proxy(this.allowedTransitions, this),
-        queueEndCallbacks: true,
-        slidesPerView: 'auto',
-        momentumRatio: 1,
-        freeMode: true,
-        freeModeFluid: true
+          slidesPerView: 1,
+          spaceBetween: 0,
+          loop: true,
+          autoplay: {
+              delay: 1500,
+              disableOnInteraction: false,
+          },
+          pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+          },
+          keyboard: {
+              enabled: true,
+          },
+          navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+          },
+          simulateTouch: false
       });
 
-      $('#lightgallery').lightGallery({
-          selector: '.item',
-          share: false,
-          actualSize: false
+      $('.slid-p-1 .btn').click(function () {
+          $('.swiper-button-next, .swiper-button-prev').css('opacity', '1');
       });
 
 
 
-      var swiper = new Swiper('.swiper-container-2  ', {
-        effect: 'fade',
-        pagination: {
-          el: '.swiper-pagination',
-          dynamicBullets: true,
-        },
-         autoplay: {
-          delay: 4000
-        }
-      });
-    </script>
+  </script>
 
-    
-
-      
-
- 
 </body>
 
 </html>
