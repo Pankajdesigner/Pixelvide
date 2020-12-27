@@ -1203,6 +1203,9 @@ footer .container-fluid{
     background: url(../images/slider-bg-2.jpg);
     opacity: 1 !important;
 }
+.slider-particles canvas{
+    opacity: 0.6;
+}
 .slider-slide-1{
     background: transparent;
     background-size: cover;
@@ -1623,11 +1626,12 @@ html {
     z-index: 2;
     left: 0;
     max-width: 100%;
-    background: rgb(0 0 0 / 39%);
+    background: rgb(0 0 0 / 25%);
     width: 100%;
     padding: 0;
     height: 100%;
 }
+
 .hero-abt-img::before {
     height: 100%;
     width: 100%;
@@ -2298,7 +2302,7 @@ html {
         background-position: center;
     }
     .hero-abt-img::before{
-        opacity: 0.1;
+        opacity: 0;
     }
     .about-section .border-line {
         margin-bottom: 15px;
@@ -3014,7 +3018,7 @@ html {
         font-size: 12px;
     }
     .hero-abt-img{
-        padding-top: 60px;
+        padding-top: 58px;
         height: 335px;
     }
     .team-section{
