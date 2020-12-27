@@ -1801,6 +1801,9 @@ html {
     line-height: 1.6;
     color: #818181;
 }
+.hero-abt-img .swiper-button-next, .hero-abt-img  .swiper-button-prev{
+    opacity: 1;
+}
 .e-section.android-section{
     background:#F9F9F9 ;
     padding-bottom: 0px;
