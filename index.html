@@ -625,6 +625,11 @@
       $('.swiper-button-next, .swiper-button-prev').css('opacity', '1');
     });
 
+    swiper.on('slideChangeTransitionEnd', function() {
+      if (this.realIndex == 1) { // second slide, because of zero indexed counting
+        $('.swiper-button-next, .swiper-button-prev').css('opacity', '1');
+      }
+    })
 
   </script>
 
