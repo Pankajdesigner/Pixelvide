@@ -1635,7 +1635,7 @@ html {
     left: 0;
     top: 0;
     background: rgb(0 0 0 / 50%);
-    opacity: 0.2;
+    opacity: 0;
     content: '';
     z-index: 2;
 }
@@ -1735,6 +1735,9 @@ html {
     background: url("../images/bg-2.jpg");
     background-size: cover;
     margin-top: 60px;
+}
+.e-governance-section-bg.ptyhon p{
+    padding: 0 25px;
 }
 .e-governance-section-bg.ptyhon .container{
     max-width: 1620px;
@@ -2112,6 +2115,9 @@ html {
 @media (max-width: 767px){
     .b-b-1{
         display: none;
+    }
+    .e-governance-section-bg.ptyhon p{
+        padding: 0 0px;
     }
     .highlight-p-home{
         padding: 6px 20px;
