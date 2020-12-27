@@ -2118,14 +2118,6 @@ html {
         font-size: 12px !important;
         margin-top: 15px !important;
     }
-    .call-wrapper:before{
-        width: 20px;
-        right: -3px;
-    }
-    .call-wrapper:after{
-        width: 20px;
-        left: -3px;
-    }
     .tech-hero{
         height: 370px;
         overflow: hidden;
@@ -2925,6 +2917,14 @@ html {
     }
 }
 @media (max-width: 550px) {
+    .call-wrapper:before{
+        width: 16%;
+        right: -3%;
+    }
+    .call-wrapper:after{
+        width: 16%;
+        left: -3%;
+    }
     .row.callout-row {
         max-width: 100%;
     }
