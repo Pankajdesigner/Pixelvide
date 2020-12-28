@@ -2211,6 +2211,11 @@ html {
     }
 } 
 @media (max-width: 767px){
+    .page-header.bg-gov{
+        height: 185px;
+        padding-top: 54px;
+        margin-top: 50px;
+    }
     .b-b-1{
         display: none;
     }
