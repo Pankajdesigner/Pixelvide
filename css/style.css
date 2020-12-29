@@ -383,7 +383,7 @@ a:hover{
     background-size: cover;
 }
 .e-governance-section-bg{
-    background: url("../images/smart.jpg") no-repeat;
+    background: url("../images/smart.webp") no-repeat;
     background-size:cover;
     position: relative;
     padding: 100px 0;
@@ -515,7 +515,7 @@ body.tight .content-wrapper {
     border-radius: 5px;
 } 
 footer {
-    background: url(../images/footer-bg.jpg) no-repeat;
+    background: url(../images/footer-bg.webp) no-repeat;
     background-size: cover;
     width: 100%;
     max-width: 100%;
@@ -745,7 +745,7 @@ footer .container-fluid{
     about-us
 ================================*/
 .page-header{
-    background: url(../images/footer-bg.jpg) no-repeat center;
+    background: url(../images/footer-bg.webp) no-repeat center;
     height: 430px;
     overflow: hidden;
     position: relative;
@@ -754,7 +754,7 @@ footer .container-fluid{
     user-select: none;
 }
 .bg-gov{
-    background-image: url("../images/smart.jpg");
+    background-image: url("../images/smart.webp");
 }
 .bg-gov::before{
     height: 100%;
@@ -1199,7 +1199,7 @@ footer .container-fluid{
     display: none;
 }
 .slider-particles{
-    background: url(../images/slider-bg-2.jpg);
+    background: url(../images/slider-bg-2.webp);
     background-size: cover;
     opacity: 1 !important;
 }
@@ -1268,7 +1268,7 @@ html {
     text-decoration: none;
 }
 .swiper-slide{
-    background: url("../images/slider-bg-2.jpg");
+    background: url("../images/slider-bg-2.webp");
     background-size: cover;
 }
 .f-s-h{
@@ -1278,7 +1278,7 @@ html {
     padding-top: 91px;
 }
 .slider-slide-2 .content-slider{
-    background: url(../images/Layer-2.jpg);
+    background: url(../images/Layer-2.webp);
     background-size: cover;
     height: 100%;
     display: flex;
@@ -1327,7 +1327,7 @@ html {
     padding: 10px 15px;
 }
 .s3-s .content-slider{
-    background: url(../images/Layer-3.jpg);
+    background: url(../images/Layer-3.webp);
     background-size: cover;
 }
 .slider-slide-3 h4{
@@ -1360,7 +1360,7 @@ html {
     margin-top: 4px;
 }
 .s4-s .content-slider {
-    background: url(../images/Layer-4.jpg);
+    background: url(../images/Layer-4.webp);
     background-size: cover;
 }
 .slider-slide-4 .btn-theme{
@@ -1371,7 +1371,7 @@ html {
 }
 
 .s5-s .content-slider {
-    background: url(../images/Layer-5.jpg);
+    background: url(../images/Layer-5.webp);
     background-size: cover;
 }
 .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
@@ -1675,27 +1675,27 @@ html {
     color: #ffff;
 }
 .abt-s-1{
-    background: url("../images/abt-slider/main.jpg");
+    background: url("../images/abt-slider/main.webp");
     background-size: cover;
     background-position: center;
 }
 .abt-s-2{
-    background: url("../images/abt-slider/1.jpg");
+    background: url("../images/abt-slider/1.webp");
     background-size: cover;
     background-position: center;
 }
 .abt-s-3{
-    background: url("../images/abt-slider/4.jpg");
+    background: url("../images/abt-slider/4.webp");
     background-size: cover;
     background-position: center;
 }
 .abt-s-4{
-    background: url("../images/abt-slider/2.jpg");
+    background: url("../images/abt-slider/2.webp");
     background-size: cover;
     background-position: center;
 }
 .abt-s-5{
-    background: url("../images/abt-slider/3.jpg");
+    background: url("../images/abt-slider/3.webp");
     background-size: cover;
     background-position: center;
 }
