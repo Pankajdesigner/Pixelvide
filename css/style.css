@@ -2214,6 +2214,11 @@ html {
     }
 } 
 @media (max-width: 767px){
+    .e-section p {
+        font-size: 12px;
+        line-height: 18px;
+        color: #616161;
+    }
     .page-header.bg-gov{
         height: 185px;
         padding-top: 54px;
@@ -2569,7 +2574,7 @@ html {
         margin-top: 10px;
     }
     .about-section p { 
-        line-height: 20px;
+        line-height: 18px;
     }
     .s1 {
         width: 230px !important;
