@@ -3109,6 +3109,7 @@ html {
     .content-slider .sec-p-slider {
         font-size: 13px;
         line-height: 1.3;
+        padding: 0 10px;
     }
     .slide-co.with-link{
         padding-bottom: 0;
