@@ -959,7 +959,7 @@ footer .container-fluid{
     margin-bottom: 10px;
 }
 .e-section p{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     color: #818181;     
 }
@@ -1137,7 +1137,7 @@ footer .container-fluid{
     width: calc(100% - 20px);
     margin: 9px;
     color: #676767;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
     border: 1px solid #d8d8d8;
     outline: none !important;
@@ -1199,8 +1199,8 @@ footer .container-fluid{
     display: none;
 }
 .slider-particles{
-    background-size: cover;
     background: url(../images/slider-bg-2.jpg);
+    background-size: cover;
     opacity: 1 !important;
 }
 .slider-particles canvas{
@@ -1430,7 +1430,7 @@ html {
 ===========================*/
 
 .slider-slide-1 h4{
-    font-size: 35px;
+    font-size: 37px;
     line-height: 40px;
     font-weight: 300;
 }
@@ -1440,17 +1440,17 @@ html {
     font-weight: 200;
 }
 .border-box{
-    width: 630px;
+    width: 760px;
     margin: 0 auto;
     position: relative;
     text-align: center;
 }
 .content-slider .sec-p-slider{
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 300;
     line-height: 1.3;
-    margin-top: -10px;
-    padding: 0px 20px;
+    margin-top: 0px;
+    padding: 0px 30px;
 }
 .bd{
     margin: -10px 0px 13px 0px;
@@ -1462,7 +1462,7 @@ html {
 .border-box:after{
     position: absolute;
     left: calc(50% - 48px);
-    top: -32px;
+    top: -40px;
     content: '';
     opacity: 0.2;
     width: 150px;
@@ -2038,7 +2038,10 @@ html {
     text-align: center;
     line-height: 1.2;
 }
-
+.e-section p{
+    font-size: 17px;
+    line-height: 1.4;
+}
 @media (max-width: 1030px) {
     .con--callout {
         position: absolute;
@@ -3227,7 +3230,7 @@ html {
     .slider-slide-1{
         height: 470px;
         position: relative;
-        padding-top: 165px;
+        padding-top: 185px;
     }
     .video-home{
         padding:40px 10px;
@@ -3336,6 +3339,9 @@ html {
         line-height: 30px;
         color: #3e3b3b;
         font-size: 19px;
+    }
+    .core-value p{
+        line-height: 1.4;
     }
     .what-we-inner p{
         font-size: 19px;
