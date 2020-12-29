@@ -3353,5 +3353,8 @@ html {
     .container {
         max-width: 1140px;
     }
+    .loader {
+        height: 130%;
+    }
 }
 
