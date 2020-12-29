@@ -2090,6 +2090,10 @@ html {
     }
 }
 @media (max-width: 991px){
+    .e-governance-section.e-governance-section-bg.ptyhon .f-60{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
     .hero-abt-img .container{
         top: 69px;
         height: calc(100% - 69px);
@@ -2214,6 +2218,9 @@ html {
     }
 } 
 @media (max-width: 767px){
+    .e-governance-section.e-governance-section-bg.ptyhon .f-60{
+        margin-bottom: 0px;
+    }
     .e-section p {
         font-size: 12px;
         line-height: 18px;
