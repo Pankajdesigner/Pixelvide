@@ -3037,8 +3037,9 @@ html {
         line-height:18px;
     }
     .AI-section h2, .e-governance-section h3, .what-we-inner h4 {
-        font-size: 16px;
+        font-size: 18px;
         margin-bottom: 8px;
+        font-weight: 400;
     }
     .border-line {
         height: 3px;
@@ -3286,7 +3287,11 @@ html {
 
     .slider-slide-1 h4 {
         font-size: 18px;
-        line-height: 24px;
+        font-weight: 400;
+        line-height: 19px;
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 5px;
     }
     .slider-slide-1 h4 span{
         display: block;
