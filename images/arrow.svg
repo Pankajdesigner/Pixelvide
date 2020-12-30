@@ -1,3 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="22.624" height="11.461" viewBox="0 0 22.624 11.461">
-  <path id="arrow" d="M1.138,6.869,4.926,3.081V22.624h1.61V3.081l3.787,3.787L11.461,5.73,5.73,0,0,5.73Z" transform="translate(22.624) rotate(90)" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="17.228" height="9.92" viewBox="0 0 17.228 9.92">
+  <path id="arrow" d="M.916,5.66,3.964,2.539V16.621h1.3V2.539l3.047,3.12.916-.938L4.61,0,0,4.721Z" transform="translate(16.871 0.349) rotate(90)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
 </svg>
