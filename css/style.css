@@ -2384,8 +2384,9 @@ html {
         margin-top: 15px !important;
     }
     .tech-hero{
-        height: 370px;
+        height: 200px;
         overflow: hidden;
+        margin-top: 58px;
     }
     .e-governance-section-bg.ptyhon{
         margin-top: 30px;
@@ -2477,7 +2478,7 @@ html {
         display: none;
     }
     .abt-con {
-        margin-top: 80px;
+        margin-top: -2px;
         max-width: 310px;
     }
     .abt-con img {
