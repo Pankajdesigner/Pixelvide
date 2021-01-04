@@ -1841,6 +1841,7 @@ html {
     border-radius: 10px;
     padding: 40px 30px;
     background: #fff;
+    height: 100%;
 }
 .icon-py{
     background: rgb(202 202 202 / 25%);
@@ -1882,12 +1883,16 @@ html {
     top: 0;
 }
 .e-section.android-section p{
-    font-size: 20px;
-    line-height: 1.6;
+    font-size: 19px;
+    line-height: 1.4;
     color: #818181;
 }
 .hero-abt-img .swiper-button-next, .hero-abt-img  .swiper-button-prev{
     opacity: 1;
+}
+.playbtn img{
+    width: 150px;
+    margin-top: 9px;
 }
 .e-section.android-section{
     background:#F9F9F9 ;
@@ -1931,6 +1936,11 @@ html {
     color: #818181;
     font-size: 16px;
 }
+.b-c p b{
+    color: #5d5d5d;
+    font-weight: 700;
+    display: block;
+}
 .section-tech{
     padding: 60px 0;
 }
@@ -1945,6 +1955,10 @@ html {
     color: #818181;
     font-size: 18px;
     margin-top: 15px;
+}
+.section-tech p b, .e-governance-section-bg.ptyhon p b, .e-section.android-section p b{
+    color: #6d6d6d;
+    font-weight: 700;
 }
 .section-tech .row{
     align-items: center;
@@ -2394,9 +2408,15 @@ html {
     .py-col {
         padding: 30px 20px;
         margin-bottom: 20px;
+        height: auto;
     }
     .py-col.no-m-b{
         margin-bottom: 0;
+    }
+    .playbtn img {
+        width: 100px;
+        margin-top: 5px;
+        margin-bottom: 20px;
     }
     .icon-py{
         margin-bottom: 0;
