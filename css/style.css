@@ -1969,6 +1969,9 @@ html {
     padding-right: 40px;
     padding-left: 0;
 }
+.section-tech.bg-same{
+    background: #F9F9F9;
+}
 .section-tech.first-section{
     background: #F9F9F9;
 }
