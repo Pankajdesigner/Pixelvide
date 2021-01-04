@@ -1794,6 +1794,7 @@ html {
     background: url("../images/abt-hero.jpg");
     background-size: cover;
     background-position: center center;
+    position: relative;
 }
 .abt-con{
     max-width: 600px;
