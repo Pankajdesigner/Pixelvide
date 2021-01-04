@@ -1855,7 +1855,8 @@ html {
     width: 50px;
 }
 .front-back-sec.e-section h2, .ptyhon.e-governance-section h3, .e-section.android-section h2, .core-tech h4, .section-tech h4{
-    font-size: 36px;
+    font-size: 32px;
+    font-weight: 400;
 }
 .front-back-sec.e-section h2 span{
     color: #6F7079;
@@ -1958,7 +1959,7 @@ html {
     margin-top: 15px;
 }
 .section-tech p b, .e-governance-section-bg.ptyhon p b, .e-section.android-section p b{
-    color: #6d6d6d;
+    color: #424242;
     font-weight: 700;
 }
 .section-tech .row{
