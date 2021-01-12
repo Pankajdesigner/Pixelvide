@@ -1774,7 +1774,7 @@ html {
 }
 .box-shadow-white{
     background: #fff;
-    box-shadow: 2px 2px 21px rgb(0 0 0 / 6%);
+    box-shadow: 2px 2px 21px rgb(0 0 0 / 8%);
     border-radius: 6px;
     transition: 0.1s;
     padding: 40px 15px;
