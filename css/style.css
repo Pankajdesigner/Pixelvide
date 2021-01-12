@@ -1774,7 +1774,7 @@ html {
 }
 .box-shadow-white{
     background: #fff;
-    box-shadow: 2px 2px 21px rgb(0 0 0 / 8%);
+    box-shadow: 2px 2px 21px rgb(0 0 0 / 6%);
     border-radius: 6px;
     transition: 0.1s;
     padding: 40px 15px;
@@ -1895,6 +1895,53 @@ html {
 .playbtn img{
     width: 150px;
     margin-top: 9px;
+}
+.playbtn.apple{
+    cursor: initial;
+    pointer-events: none;
+}
+.section-news-pix  .container.who-we-are{
+    text-align: center;
+}
+.w-w-r-bg {
+    padding: 40px 80px;
+    background: #fff;
+    margin: 30px 0;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+}
+.w-w-r-bg:after{
+    width: 10px;
+    height: 50%;
+    left: 0;
+    top: 25%;
+    background: #f7a51c;
+    content: '';
+    position: absolute;
+}
+.w-w-r-bg:before{
+    width: 10px;
+    height: 50%;
+    right: 0;
+    top: 25%;
+    background: #f7a51c;
+    content: '';
+    position: absolute;
+}
+.container.who-we-are h4{
+    font-size: 42px;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 10px;
+    color: #353643;
+
+}
+.who-we-are p{
+    line-height: 1.5;
+    color: #3e3b3b;
+    margin: 0;
+    font-size: 21px;
 }
 .e-section.android-section{
     background:#F9F9F9 ;
@@ -2071,6 +2118,7 @@ html {
     align-items: center;
     justify-content: space-between;
 }
+
 .slider-blog-list.rev{
     flex-direction: row-reverse;
 }
@@ -2079,7 +2127,50 @@ html {
 }
 .blog-side-img{
     /*width: 55%;*/
+    position: relative;
     /*max-width: 55%;*/
+}
+.blog-side-img .img-text img{
+    width: 80px;
+    object-fit: initial;
+    height: auto;
+    min-height: auto;
+    opacity: 0.3;
+    position: relative;
+    top: 31px;
+    margin-top: -40px;
+}
+.img-text{
+    text-align: center;
+    position: absolute;
+    width: 50%;
+    color: #fff;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background: rgb(0 0 0 / 57%);
+}
+.rev .img-text{
+   right: 0;
+    left: auto;
+}
+.img-text h4{
+    font-size: 23px;
+    font-weight: 300;
+    padding: 0px 30px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+.img-text a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    height: 35px;
+    line-height: 35px;
+    background: rgb(255 255 255 / 15%);
 }
 .side-blog-content{
     max-width: 64%;
@@ -2109,7 +2200,8 @@ html {
     font-weight: 400;
     margin-bottom: 10px;
     color: #353643;
-    margin-top: 20px;
+    line-height: 1.4;
+    margin-top: 0px;
 }
 .side-blog-content p{
     line-height: 1.4;
@@ -2122,6 +2214,7 @@ html {
     padding: 5px 17px;
     border-radius: 2px;
     margin-bottom: 10px;
+    display: none;
 }
 .blog-right-a{
     width: auto;
@@ -2155,6 +2248,32 @@ html {
     overflow: hidden;
     width: 100%;
 }
+.core-value .v-box .box-shadow-white{
+    height: calc(100% - 30px);
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+}
+.core-value .box-shadow-white{
+    margin-bottom: 30px;
+}
+.v-box svg{
+    width: 80px;
+    height: auto;
+}
+.v-box h4{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.core-value .v-box p{
+    font-size: 20px;
+    padding: 0 30px;
+    margin-bottom: 0;
+    line-height: 1.4;
+}
+
+
+
 @media (max-width: 1030px) {
     .con--callout {
         position: absolute;
@@ -2331,6 +2450,39 @@ html {
     }
 } 
 @media (max-width: 767px){
+    .w-w-r-bg {
+        padding: 20px 15px;
+        margin: 20px 0;
+        border-radius: 5px;
+        box-shadow: 0 5px 20px rgb(0 0 0 / 10%);
+    }
+    .w-w-r-bg:before, .w-w-r-bg:after{
+        width: 3px;
+        display: none;
+    }
+    .who-we-are p {
+        line-height: 1.5;
+        font-size: 13px;
+    }
+    .img-text{
+        width: 100%;
+    }
+    .img-text div{
+        width: 100%;
+    }
+    .blog-side-img .img-text img{
+        width: 50px;
+        margin-top: -49px;
+    }
+    .img-text h4 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .img-text a{
+        font-size: 12px;
+        height: 25px;
+        line-height: 25px;
+    }
     .slider-blog-list{
         margin-bottom: 30px;
         flex-wrap: wrap;
@@ -2780,6 +2932,15 @@ html {
     }
     .core-value p{
         font-size:13px;
+    }
+    .core-value .v-box p {
+        font-size: 13px;
+        padding: 0 15px;
+        margin-bottom: 0;
+        line-height: 1.4;
+    }
+    .v-box svg, .box-shadow-white svg{
+        width: 50px;
     }
     .core-value .col-md-3{
         margin-bottom:20px;
