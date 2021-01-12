@@ -2249,10 +2249,12 @@ html {
     width: 100%;
 }
 .core-value .v-box .box-shadow-white{
-    height: calc(100% - 30px);
     display: flex;
-    margin-bottom: 0;
+    margin-bottom: 30px;
     align-items: center;
+}
+.core-value .v-box .box-shadow-white div{
+   width: 100%;
 }
 .core-value .box-shadow-white{
     margin-bottom: 30px;
