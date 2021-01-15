@@ -2172,6 +2172,11 @@ html {
     line-height: 35px;
     background: rgb(255 255 255 / 15%);
 }
+.img-text a:hover {
+    background: rgb(104 112 243 / 49%);
+    text-decoration: underline;
+    transition: 0.5s;
+}
 .side-blog-content{
     max-width: 64%;
     padding: 35px;
