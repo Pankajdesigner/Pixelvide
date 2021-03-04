@@ -2539,8 +2539,9 @@ html {
     }
     .blog-list-home h5 {
         margin-bottom: 5px;
-        font-size: 15px;
+        font-size: 13px;
         margin-top: 5px;
+        font-family: 'Roboto', sans-serif;
     }
     .w-w-r-bg {
         padding: 20px 15px;
